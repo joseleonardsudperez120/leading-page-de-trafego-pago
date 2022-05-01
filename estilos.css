@@ -1,0 +1,338 @@
+
+
+/*mostrar o troubleshooting*/
+
+* {
+    /*font: 12px sans-serif;*/
+    font-family: Aileron;
+}
+
+body {
+    margin: 0;
+    background-color: #f577cb;
+}
+
+.botao {
+    /*  width: 209.9px;
+    height: 57.1px;*/
+    padding: 15px 150px;
+    border-radius: 20px;
+    background-color: #fa00a7;
+    color: white;
+    font-size: 30px;
+    line-height: 15;
+    
+}
+
+header>nav {
+    float: right;
+}
+
+header>nav>a {
+    /*padding: 15px 10px;*/
+    text-decoration:none;
+    color: fa00a7;
+    background-color: #f7ade0;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header>nav>a:hover:after {
+    width: 49.3px;
+    height: 0;
+    border: solid 3px #ffffff;
+}
+
+header {
+    margin-top: 0px;
+    height: 0px;
+}
+
+section {
+    text-align: center;
+}
+
+.logomarca {
+    width: 20%;
+    border-radius: 10%;
+
+}
+
+section>figure {
+    float: left;
+
+    
+}
+
+
+
+#diferenciais>figure {
+    width: 300px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.14);
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.retangulo-depoimento {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-depoimento {
+    width: 456.5px;
+    /* eu inventei essas medidas , certo?*/
+    height: 1000px;
+}
+
+.texto-depoimento {
+    width: 421px;
+    height: 366px;
+    font-family: Aileron;
+    font-size: 28px;
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #182c3f;
+}
+
+.slider-seletor-ativo {
+    width: 78.8px;
+    height: 9.2px;
+    border-radius: 5.5px;
+    background-color: #182c3f;
+}
+
+.slider-seletor-inativo {
+    width: 78.8px; /*largura do meu elemento*/
+    height: 9.2px;
+    border-radius: 5.5px;
+    background-color: #ffffff;
+}
+
+footer {
+    font-family: Aileron;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    color: #54565a;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+.icones-rodape {
+    width: 24px;
+}
+
+/* quais problemas ainda existem - responsividade - cenas do proximo capitulo */
+
+.nosso-compromisso {
+    /*qual o problema de ser este nome? autoreflexao e criticas - boas praticas*/
+    height: 36px;
+    font-family: Aileron;
+    font-size: 34px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.nome-pessoa {
+    width: 160px;
+    height: 100px;
+    font-family: Aileron;
+    /*pra que repetir toda vez?*/
+    font-size: 35px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+
+
+.profissao {
+    height: 20px;
+    font-family: Aileron;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #182c3f;
+}
+
+.texto-abaixo-logo {
+    width: 1000px;
+    height: 50px;
+    font-family: Aileron;
+    font-size: 42px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0,01;
+    letter-spacing: normal;
+    text-align: center;
+    color: #111111;
+    margin: auto;
+}
+
+.diferenciais-titulo strong {
+    width: 158px;
+    height: 63px;
+    font-family: Aileron;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f7ade0;
+}
+
+.diferenciais-titulo {
+    color: #2c2e30;
+}
+
+.saiba-mais:hover:after {
+    width: 133.9px;
+    height: 0;
+    border: solid 3px #f7ade0;
+}
+
+section#logo {
+    height: 600px;
+    line-height: 2;
+    text-align:center
+}
+
+.foto-depoimento {
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+section#diferenciais {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    /*<==*/
+    align-content: center;
+    /*<==*/
+    align-self: center;
+    /**/
+    justify-content: center;
+    /**/
+}
+
+/*css-formatter - addon*/
+
+#depoimento-texto {
+    text-align: left;
+}
+
+#fino {
+    background: none;
+}
+
+#header-menor {
+    margin-top: 0px;
+    background-color: #f7ade0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#header-menor>section>img {
+    width: 20%;
+}
+
+section#footer-direita {
+    margin: auto;
+}
+
+section#footer-esquerda {
+    margin: auto;
+}
+
+.imagem-pizza {
+    width: 80%;
+}
+
+#receitas {
+    display: grid;
+    width: 60%;
+    margin: auto;
+    text-align: left;
+}
+
+#receitas>figure {
+    height: 200px;
+}
+
+.receita-1-1 {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.receita-1-2 {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.receita-2-1 {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.receita-2-2 {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.receita-3-1 {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.receita-3-2 {
+    grid-row: 3;
+    grid-column: 2;
+}
+
+#header-direita {
+    margin: auto;
+}
+
+#header-esquerda {
+    margin: auto;
+}
+
+a:hover {
+    border-bottom: 2px solid #98ca3f;
+
